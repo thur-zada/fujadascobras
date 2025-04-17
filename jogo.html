@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogue Agora - Fuja das Cobras</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            background: #003300;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        main {
+            padding: 80px 20px 20px 20px;
+        }
+
+        iframe {
+            width: 90%;
+            max-width: 960px;
+            height: 540px;
+            border: none;
+            box-shadow: 0 0 20px rgba(0, 255, 128, 0.2);
+            border-radius: 10px;
+        }
+
+        a.voltar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #006600;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.voltar:hover {
+            background-color: #009900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jogue: Fuja das Cobras</h1>
+    </header>
+    <main>
+        <iframe src="jogo/jogo_final.html" title="Fuja das Cobras" ></iframe>
+        <br>
+        <a class="voltar" href="index.html">← Voltar para o Início</a>
+    </main>
+</body>
+</html>

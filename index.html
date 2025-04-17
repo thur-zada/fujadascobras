@@ -6,7 +6,7 @@
     <title>Fuja das Cobras</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="home">
     <header>
         <h1>Fuja das Cobras</h1>
         <nav>
@@ -14,33 +14,36 @@
             <button onclick="scrollToSection('sobre')">Sobre</button>
             <button onclick="scrollToSection('galeria')">Galeria de Fotos</button>
             <button onclick="scrollToSection('contato')">Entre em contato</button>
+            <button onclick="window.location.href='jogo.html'">Jogar Agora</button>
         </nav>
     </header>
-    
-    <body>
-        <main>
-            <div class="imagens">
-                <img src="site/banner horizontal.png" alt="Banner do Jogo" class="bannerhorizontal">
-    
-                <div id="galeria" class="galeria">
-                    <img src="site/print1.png" alt="Print do Jogo" class="print">
-                    <img src="site/print2.png" alt="Print do Jogo" class="print">
-                </div>
-    
-                <img src="site/sobre.png" alt="Sobre o Jogo" class="sobre" id="sobre">
+
+    <main>
+        <div class="imagens">
+            <img src="site/banner horizontal.png" alt="Banner do Jogo" class="bannerhorizontal">
+
+            <div id="galeria" class="galeria">
+                <img src="site/print1.png" alt="Print do Jogo" class="print">
+                <img src="site/print2.png" alt="Print do Jogo" class="print">
             </div>
 
-        </main>
-        <script>
-            function scrollToSection(id) {
-                document.getElementById(id).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        </script>
-    <footer>
-        <p>&copy; 2025 Arthur D. Viana. Todos os direitos reservados.</p>
+            <img src="site/sobre.png" alt="Sobre o Jogo" class="sobre" id="sobre">
+        </div>
+    </main>
+
+    <footer id="contato">
+        <div class="footer-content">
+            <p>&copy; 2025 Arthur D. Viana • Todos os direitos reservados</p>
+            <p>Contato: <a href="mailto:arthurdamaceno05@gmail.com">arthurdamaceno05@gmail.com</a></p>
+        </div>
     </footer>
-    </body>
-    
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
 </html>
