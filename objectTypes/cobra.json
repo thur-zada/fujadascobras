@@ -1,0 +1,88 @@
+{
+	"name": "cobra",
+	"plugin-id": "Sprite",
+	"sid": 713328498663543,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 634351956666815
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 75,
+						"height": 75,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1104300,
+						"collisionPoly": {
+							"points": [
+								0.3333333333333333,
+								0.013333333333333334,
+								0.48,
+								0.02666666666666667,
+								0.9333333333333333,
+								0.4,
+								0.96,
+								0.44,
+								0.9866666666666667,
+								0.49333333333333335,
+								1,
+								0.5333333333333333,
+								1,
+								0.6533333333333333,
+								0.9866666666666667,
+								0.6933333333333334,
+								0.96,
+								0.7466666666666667,
+								0.88,
+								0.8266666666666667,
+								0.8266666666666667,
+								0.8533333333333334,
+								0.32,
+								1,
+								0.25333333333333335,
+								1,
+								0.18666666666666668,
+								0.9733333333333334,
+								0.04,
+								0.8666666666666667,
+								0.013333333333333334,
+								0.8133333333333334,
+								0.013333333333333334,
+								0.7066666666666667,
+								0.24,
+								0.08,
+								0.29333333333333333,
+								0.02666666666666667
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 319693227935913,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

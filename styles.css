@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Dark green */
+}
+header {
+    background: #003300; 
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    color: #ffffff; /* White text for readability */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #003300; 
+    color: #ffffff;
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Always at the bottom */
+    width: 100%;
+}
